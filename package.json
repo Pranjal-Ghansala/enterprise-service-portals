@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Full-stack enterprise service portal",
   "scripts": {
-    "build": "npm install --prefix server && cd client && npm install && npm run build",
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
     "start": "cd server && npm start"
   },
   "engines": {
